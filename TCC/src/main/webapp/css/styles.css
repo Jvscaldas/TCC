@@ -1,0 +1,176 @@
+@charset "ISO-8859-1";
+
+body {
+	background-color: #4F4F4F;
+}
+
+#menu {
+	border-bottom: 2px solid white;
+	padding: 10px;
+}
+
+#menu ul {
+	padding: 0px;
+	margin: 0px;
+	list-style: none;
+	background-color: #4F4F4F;
+	font-size: 18px;
+}
+
+#menu ul li {
+	display: inline;
+}
+
+#menu ul li a {
+	font-family: Arial;
+	font-size: 18px;
+	padding: 2px 10px;
+	display: inline-block;
+	background-color: #4F4F4F;
+	color: white;
+	text-decoration: none;
+	border-bottom: none;
+}
+
+#menu ul li a:hover {
+	font-size: 18px;
+	background-color: #6ab1d4;
+	color: white;
+	border-bottom: none;
+}
+
+input::placeholder {
+	color: #D3D3D3;
+}
+
+input[type=submit] {
+	border: none;
+	color: white;
+	background-color: #47a5ae;
+	border-radius: 0px;
+	font-size: 20px;
+	padding: 10px;
+}
+
+input[type=submit]:hover {
+	background-color: #6ab1d4;
+	color: white;
+	font-size: 20px;
+}
+
+.container {
+	margin: auto;
+	width: 50%;
+	border: none;
+	border-radius: 15px;
+	padding-bottom: 20px;
+	box-shadow: none;
+}
+
+.title {
+	font-family: Arial;
+	font-size: 28px;
+	color: white;
+}
+
+.input_data_id {
+	background: transparent;
+	border-bottom: 2px solid white;
+	border-top: none;
+	border-left: none;
+	border-right: none;
+	height: 30px;
+	width: 250px;
+	font-size: 20px;
+	color: white;
+}
+
+.input_data {
+	background: transparent;
+	border-bottom: 2px solid white;
+	border-top: none;
+	border-left: none;
+	border-right: none;
+	height: 30px;
+	width: 340px;
+	font-size: 20px;
+	margin-bottom: 10px;
+	color: white;
+}
+
+.combo_box {
+	background-color: #4F4F4F;
+	background-image: none;
+	border-bottom: 2px solid white;
+	border-top: none;
+	border-left: none;
+	border-right: none;
+	height: 30px;
+	width: 340px;
+	font-size: 20px;
+	margin-bottom: 10px;
+	color: white;
+	background-image: none;
+}
+
+.combo_box_table {
+	background: transparent;
+	border-bottom: 2px solid white;
+	border-top: none;
+	border-left: none;
+	border-right: none;
+	height: 30px;
+	width: 140px;
+	font-size: 20px;
+	margin-bottom: 10px;
+	color: black;
+}
+
+.lista-cadastros {
+	background: white;
+	border-radius: 10px;
+	margin: auto;
+	width: 40vw;
+}
+
+.lista-data {
+	background: white;
+	border-radius: 10px;
+	margin: auto;
+	width: 18vw;
+}
+
+.titulos-listagem {
+	font-family: Arial;
+	font-size: 18px;
+	color: black;
+}
+
+.fonte-listagem {
+	font-family: Arial;
+	font-size: 16px;
+	color: black;
+}
+
+.tabela_div th, .tabela_div td {
+	padding: 20px;
+	text-align: center;
+	border-right: solid 1px black;
+	border-left: solid 1px black;
+	border-top: solid 1px black;
+	border-bottom: solid 1px black;
+}
+
+.tabela_div {
+	width: 100% !important;
+}
+
+h2 {
+	color: #F4EA82;
+	font-family: Arial;
+}
+
+h3 {
+	color: #F4EA82;
+	font-family: Arial;
+}
